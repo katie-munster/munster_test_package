@@ -1,11 +1,21 @@
 Package: munsterPackage
 Type: Package
-Title: What the Package Does (Title Case)
+Title: My First Package
 Version: 0.1.0
-Author: Who wrote it
+Author: Katie Munster
 Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
+Description: Example functions within my first package
     Use four spaces when indenting paragraphs within the Description.
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 7.1.2
+Depends: 
+    R (>= 2.10)
+Imports: 
+    rlang,
+    purrr,
+    lifecycle,
+    cli,
+    glue,
+    withr
